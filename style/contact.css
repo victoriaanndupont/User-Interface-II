@@ -122,98 +122,31 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-/* Add CSS styling here */
-.top {
-  background-color: darkslategray;
-  padding: 4%;
-}
-.name h1 {
-  font-weight: bold;
+h1 {
   display: flex;
   justify-content: center;
   align-items: center;
   font-family: chelsea market;
   font-size: 40px;
-}
-body nav {
-  margin-top: 15px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.link1 {
-  border: solid green;
-  margin-right: 10px;
-  border-radius: 25%;
-  padding: 5px;
-  background-color: darksalmon;
-}
-.link1:hover {
-  background-color: darkseagreen;
-}
-.link2 {
-  border: solid green;
-  margin-right: 10px;
-  border-radius: 25%;
-  padding: 5px;
-  background-color: darksalmon;
-}
-.link2:hover {
-  background-color: darkseagreen;
-}
-.link3 {
-  border: solid green;
-  border-radius: 25%;
-  padding: 5px;
-  background-color: darksalmon;
-}
-.link3:hover {
-  background-color: darkseagreen;
-}
-body h2 {
-  font-weight: bold;
-  font-size: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-body .para {
-  font-size: 22px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.topPic {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 30px;
-}
-.bottomPics .bp1 {
-  display: inline-block;
-  margin-left: 203px;
-}
-.bottomHalf {
-  display: flex;
-  flex-direction: row;
-}
-.lastParagraph {
-  margin-left: 5%;
-  margin-top: 8%;
-}
-.contact {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: solid green;
-  border-radius: 25%;
-  padding: 5px;
-  background-color: darksalmon;
-}
-.contact:hover {
-  background-color: darkseagreen;
-}
-.contactButton {
   background-color: darkslategray;
-  padding: 2%;
+  padding: 3%;
+}
+nav {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav .link {
+  margin-right: 5px;
+  border: solid green;
+  background-color: darksalmon;
+  border-radius: 25%;
+  padding: 4px;
+}
+nav .home {
+  border: solid green;
+  background-color: darksalmon;
+  border-radius: 25%;
+  padding: 4px;
 }

@@ -122,98 +122,39 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-/* Add CSS styling here */
-.top {
-  background-color: darkslategray;
-  padding: 4%;
-}
-.name h1 {
-  font-weight: bold;
+
+h1 {
   display: flex;
   justify-content: center;
   align-items: center;
   font-family: chelsea market;
-  font-size: 40px;
 }
-body nav {
-  margin-top: 15px;
+nav {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.link1 {
+.Git {
   border: solid green;
-  margin-right: 10px;
+  padding: 4px;
   border-radius: 25%;
-  padding: 5px;
   background-color: darksalmon;
 }
-.link1:hover {
-  background-color: darkseagreen;
-}
-.link2 {
-  border: solid green;
-  margin-right: 10px;
-  border-radius: 25%;
-  padding: 5px;
-  background-color: darksalmon;
-}
-.link2:hover {
-  background-color: darkseagreen;
-}
-.link3 {
-  border: solid green;
-  border-radius: 25%;
-  padding: 5px;
-  background-color: darksalmon;
-}
-.link3:hover {
-  background-color: darkseagreen;
-}
-body h2 {
-  font-weight: bold;
-  font-size: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-body .para {
-  font-size: 22px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.topPic {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 30px;
-}
-.bottomPics .bp1 {
-  display: inline-block;
-  margin-left: 203px;
-}
-.bottomHalf {
-  display: flex;
-  flex-direction: row;
-}
-.lastParagraph {
-  margin-left: 5%;
-  margin-top: 8%;
-}
-.contact {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: solid green;
-  border-radius: 25%;
-  padding: 5px;
-  background-color: darksalmon;
-}
-.contact:hover {
-  background-color: darkseagreen;
-}
-.contactButton {
+.twolines {
   background-color: darkslategray;
-  padding: 2%;
+}
+p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+footer {
+  background-color: darkslategray;
+}
+.home {
+  border: solid green;
+  border-radius: 25%;
+  padding: 4px;
+  background-color: darksalmon;
 }
